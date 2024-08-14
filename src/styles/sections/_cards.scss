@@ -1,0 +1,26 @@
+.cards {
+  &__wrapper {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 19px;
+  }
+
+@media screen and (max-width: 631px) {
+  .cards__wrapper {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+  }
+} 
+
+@media screen and (max-width: 443px) {
+  .cards__wrapper {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 19px;
+  }
+} 
+}

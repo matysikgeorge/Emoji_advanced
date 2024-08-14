@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+select {
+  color: inherit;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+  color: inherit;
+  font-style: normal;
+  line-height: normal;
+}
+
+body{
+  background-color: #EDEEF3;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 990px;
+  width: 100%;
+  // height: 100vh;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
