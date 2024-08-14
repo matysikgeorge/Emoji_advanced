@@ -10,11 +10,27 @@
     background: #ced4da;
   }
 
-  &__text {
-    color: #6c757d;
-    margin-top: 13px;
-    text-align: center;
-    font-size: 16px;
-    line-height: 21px;
+  &__pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
   }
+
+  &__left-block {
+    display: flex;
+  }
+
+  &__right-block {
+    display: flex;
+    gap: 12px;
+  }
+
+  // &__text {
+  //   color: #6c757d;
+  //   margin-top: 13px;
+  //   text-align: center;
+  //   font-size: 16px;
+  //   line-height: 21px;
+  // }
 }

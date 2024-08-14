@@ -107,12 +107,18 @@ main {
   border: 1px solid #e5e5e5;
   background: #ced4da;
 }
-.footer__text {
-  color: #6c757d;
-  margin-top: 13px;
-  text-align: center;
-  font-size: 16px;
-  line-height: 21px;
+.footer__pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+.footer__left-block {
+  display: flex;
+}
+.footer__right-block {
+  display: flex;
+  gap: 12px;
 }
 
 .cards__wrapper {
@@ -163,4 +169,13 @@ main {
   color: #3f444a;
   font-size: 12px;
   font-weight: 400;
+}
+
+.page {
+  color: #055160;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 12px 14px;
+  border: 1px solid #dee2e6;
+  background: #fff;
 }/*# sourceMappingURL=style.css.map */
